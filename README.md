@@ -60,11 +60,21 @@ IncomeAmount - Annunal Income
 
 **PostMethod Request - ~/api/mortgage-check**
 
-Request Structure 
+Request Structure Format : 
+* IncomeAmount - Annual
+* MaturityPeroid - In Years
 `{
   "incomeAmount": 45000,
   "maturityPeriod": 5,
   "loanValueAmount": 300000,
   "homeValueAmount": 250000
+}
+`
+
+Sample Respone:
+`
+{
+  "monthlyCostAmount": 1329.50,
+  "mortgageEligibility": false
 }
 `
