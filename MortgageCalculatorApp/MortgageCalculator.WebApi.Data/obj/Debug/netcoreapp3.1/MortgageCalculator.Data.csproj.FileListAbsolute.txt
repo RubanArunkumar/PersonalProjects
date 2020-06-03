@@ -1,9 +1,0 @@
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\bin\Debug\netcoreapp3.1\MortgageCalculator.Data.deps.json
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\bin\Debug\netcoreapp3.1\MortgageCalculator.Data.dll
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\bin\Debug\netcoreapp3.1\MortgageCalculator.Data.pdb
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\obj\Debug\netcoreapp3.1\MortgageCalculator.Data.csproj.CoreCompileInputs.cache
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\obj\Debug\netcoreapp3.1\MortgageCalculator.Data.AssemblyInfoInputs.cache
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\obj\Debug\netcoreapp3.1\MortgageCalculator.Data.AssemblyInfo.cs
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\obj\Debug\netcoreapp3.1\MortgageCalculator.Data.dll
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\obj\Debug\netcoreapp3.1\MortgageCalculator.Data.pdb
-C:\Users\ARuban\Desktop\ING\MortgageCalculatorApp\MortgageCalculator.WebApi.Data\obj\Debug\netcoreapp3.1\MortgageCalculator.Data.csprojAssemblyReference.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj": {}
+    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj": {
+    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj",
+        "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj",
         "projectName": "MortgageCalculator.Core.UnitTests",
-        "projectPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj",
+        "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\MortgageCalculator.Core.UnitTests.csproj",
         "packagesPath": "C:\\Users\\ARuban\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\obj\\",
+        "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Core.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj": {
-                "projectPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj"
+              "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj": {
+                "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj": {
+    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj",
+        "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj",
         "projectName": "MortgageCalculator.Core",
-        "projectPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj",
+        "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj",
         "packagesPath": "C:\\Users\\ARuban\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\obj\\",
+        "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -115,8 +115,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj": {
-                "projectPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj"
+              "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj": {
+                "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj"
               }
             }
           }
@@ -133,6 +133,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
             }
           },
           "imports": [
@@ -154,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj": {
+    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
         "projectName": "MortgageCalculator.Data",
-        "projectPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
+        "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
         "packagesPath": "C:\\Users\\ARuban\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\obj\\",
+        "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

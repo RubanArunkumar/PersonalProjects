@@ -643,11 +643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
+      "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
       "projectName": "MortgageCalculator.Data",
-      "projectPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
+      "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
       "packagesPath": "C:\\Users\\ARuban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ARuban\\Desktop\\ING\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\obj\\",
+      "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
