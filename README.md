@@ -27,7 +27,7 @@ Use the frameworks as you see fit to build and test this.
 Maturity Period - In Years
 IncomeAmount - Annunal Income
 
-**Get Method Response** 
+**Get Method (~/api/interest-rates) Response** 
 
 `[
   {
@@ -56,4 +56,15 @@ IncomeAmount - Annunal Income
     "lastUpdatedTime": "2020-05-28T01:18:09.1792081+02:00"
   }
 ]
+`
+
+**PostMethod Request - ~/api/mortgage-check**
+
+Request Structure 
+`{
+  "incomeAmount": 45000,
+  "maturityPeriod": 5,
+  "loanValueAmount": 300000,
+  "homeValueAmount": 250000
+}
 `
