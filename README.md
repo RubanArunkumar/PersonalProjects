@@ -27,7 +27,8 @@ Use the frameworks as you see fit to build and test this.
 Maturity Period - In Years
 IncomeAmount - Annunal Income
 
-**Get Method Response ** 
+**Get Method Response** 
+
 `[
   {
     "maturityPeriod": 1,
