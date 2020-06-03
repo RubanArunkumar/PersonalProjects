@@ -60,6 +60,8 @@ Business rules that apply are
 **PostMethod Request - ~/api/mortgage-check**
 
 Request Structure Format : 
+
+* Added Validation to validate the request
 * IncomeAmount - Annual
 * MaturityPeroid - In Years
 `{
