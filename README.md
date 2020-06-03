@@ -13,3 +13,10 @@ Business rules that apply are
     a mortgage should not exceed the home value
 
 Use the frameworks as you see fit to build and test this.
+
+**Framework Used**
+-DotnetCore 3.1 - Web Api
+-Entity Framework in Memory
+-Xunit Testing
+-MOQ mocking framework
+-NBuilder
