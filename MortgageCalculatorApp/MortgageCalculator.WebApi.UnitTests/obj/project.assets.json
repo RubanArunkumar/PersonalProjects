@@ -7138,8 +7138,8 @@
     },
     "MortgageCalculator.Core/1.0.0": {
       "type": "project",
-      "path": "../MortgageCalculator.WebApi.Business/MortgageCalculator.Core.csproj",
-      "msbuildProject": "../MortgageCalculator.WebApi.Business/MortgageCalculator.Core.csproj"
+      "path": "../MortgageCalculator.WebApi.Core/MortgageCalculator.Core.csproj",
+      "msbuildProject": "../MortgageCalculator.WebApi.Core/MortgageCalculator.Core.csproj"
     },
     "MortgageCalculator.Data/1.0.0": {
       "type": "project",

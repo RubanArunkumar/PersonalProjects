@@ -4,14 +4,14 @@
     "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.UnitTests\\MortgageCalculator.WebApi.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj": {
+    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Core\\MortgageCalculator.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj",
+        "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Core\\MortgageCalculator.Core.csproj",
         "projectName": "MortgageCalculator.Core",
-        "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj",
+        "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Core\\MortgageCalculator.Core.csproj",
         "packagesPath": "C:\\Users\\ARuban\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\obj\\",
+        "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -244,8 +244,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj": {
-                "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Business\\MortgageCalculator.Core.csproj"
+              "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Core\\MortgageCalculator.Core.csproj": {
+                "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Core\\MortgageCalculator.Core.csproj"
               }
             }
           }
