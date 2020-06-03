@@ -1,6 +1,6 @@
 **Requirements : Wep Api Application**
 
-We would like you to create a backend application using REST. It should contain the following endpoints;
+Backend application using REST and it should contain the following endpoints;
 
     GET /api/interest-rates (get a list of current interest rates)
     POST /api/mortgage-check (post the parameters to calculate for a mortgage check)
@@ -11,8 +11,7 @@ Business rules that apply are
 
     a mortgage should not exceed 4 times the income
     a mortgage should not exceed the home value
-
-Use the frameworks as you see fit to build and test this.
+    
 
 **Framework Used**
 * DotnetCore 3.1 - Web Api
