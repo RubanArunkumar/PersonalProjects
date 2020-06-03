@@ -22,9 +22,9 @@ Business rules that apply are
 * AutoMapper
 
 **Assumption made**
-* Test data should reside in memory and to get loaded during Application Startup. Used "UseinMemory" concepts as a data provider in the Get Method.
-Maturity Period - In Years
-IncomeAmount - Annunal Income
+* Test data should reside in memory and to get loaded during Application Startup. Used "UseInMemory" concepts as a data provider in the Get Method.
+* Maturity Period - In Years
+* IncomeAmount - Annunal Income
 
 **Get Method (~/api/interest-rates) Response** 
 
