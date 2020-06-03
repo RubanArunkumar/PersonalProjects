@@ -25,6 +25,10 @@ namespace MortgageCalculator.Core.Providers
         private double MonthlyMortgageCalculate(double loanValueAmount, int maturityPeriod)
         {
             var interestRateInPercentage = _interestRateProvider.GetInterestRateForMaturityPeriod(maturityPeriod);
+            if (interestRateInPercentage.Equals(0))
+            {
+                return interestRateInPercentage;
+            }
             var monthlyInterestRate = (interestRateInPercentage / 100) / 12;
             var maturityPeriodInMonths = maturityPeriod * 12;
             var mortgageAmount = loanValueAmount * ((monthlyInterestRate * Math.Pow((1 + monthlyInterestRate), maturityPeriodInMonths)) / (Math.Pow((1 + monthlyInterestRate), maturityPeriodInMonths) - 1 ));

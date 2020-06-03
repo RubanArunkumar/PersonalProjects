@@ -50,12 +50,20 @@ namespace MortgageCalculator.WebApi.Controllers
         {
             _logger.LogInformation("The method to get calculate mortgage is called");
             var validatedResult = _requestValidator.ValidateMortgageCalculateRequest(_mapper.Map<MortgageInput>(mortgageCalculateRequest));
+
             if (!validatedResult)
             {
                 return new BadRequestObjectResult("Invalid User Input");
             }
+
             var result =
                 _mortgageCalculateProvider.GetMortgageResult(_mapper.Map<MortgageInput>(mortgageCalculateRequest));
+
+            if (result.MonthlyCostAmount.Equals(0))
+            {
+                return new BadRequestObjectResult("Invalid User Input, interest rate not available for provided maturityPeriod ");
+            }
+
             return new JsonResult(_mapper.Map<MortgageCalculateResponse>(result));
         }
     }

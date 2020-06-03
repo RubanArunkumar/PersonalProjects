@@ -41,11 +41,8 @@ namespace MortgageCalculator.WebApi.UnitTests
                 _interestRateProvider.Object,
                 _requestValidator.Object);
 
-            var mortgageRate = new List<MortgageRate>
-            {
-                new MortgageRate {InterestRate = 1.5, MaturityPeriod = 1, LastUpdatedTime = DateTime.Now}
-            };
-            _interestRateProvider.Setup(x => x.GetMortgageRates()).ReturnsAsync(mortgageRate);
+            var mortgageResult = new MortgageResult(500, true);
+            _mortgageCalculateProvider.Setup(x => x.GetMortgageResult(It.IsAny<MortgageInput>())).Returns(mortgageResult);
         }
 
         [Fact]
