@@ -21,3 +21,38 @@ Use the frameworks as you see fit to build and test this.
 * MOQ mocking framework
 * NBuilder
 * AutoMapper
+
+**Assumption made**
+* Test data should reside in memory and to get loaded during Application Startup. Used "UseinMemory" concepts as a data provider in the Get Method.
+Maturity Period - In Years
+IncomeAmount - Annunal Income
+
+**Get Method Response ** 
+`[
+  {
+    "maturityPeriod": 1,
+    "interestRate": 2.19,
+    "lastUpdatedTime": "2020-06-01T01:18:09.175868+02:00"
+  },
+  {
+    "maturityPeriod": 2,
+    "interestRate": 2.09,
+    "lastUpdatedTime": "2020-05-31T01:18:09.1792017+02:00"
+  },
+  {
+    "maturityPeriod": 3,
+    "interestRate": 2.14,
+    "lastUpdatedTime": "2020-05-30T01:18:09.1792071+02:00"
+  },
+  {
+    "maturityPeriod": 4,
+    "interestRate": 2.49,
+    "lastUpdatedTime": "2020-05-29T01:18:09.1792077+02:00"
+  },
+  {
+    "maturityPeriod": 5,
+    "interestRate": 2.54,
+    "lastUpdatedTime": "2020-05-28T01:18:09.1792081+02:00"
+  }
+]
+`
