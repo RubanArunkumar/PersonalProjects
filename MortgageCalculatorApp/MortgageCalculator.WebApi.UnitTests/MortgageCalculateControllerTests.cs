@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using MortgageCalculator.Core.Models;
 using MortgageCalculator.Core.Providers;
+using MortgageCalculator.Core.Validator;
 using MortgageCalculator.Data.Models;
 using MortgageCalculator.WebApi.Controllers;
 using MortgageCalculator.WebApi.Models;
@@ -22,6 +23,8 @@ namespace MortgageCalculator.WebApi.UnitTests
 
         private readonly Mock<IInterestRateProvider> _interestRateProvider;
 
+        private readonly Mock<IRequestValidator> _requestValidator;
+
         private readonly MortgageCalculatorController _controller;
 
         public MortgageCalculateControllerTests()
@@ -30,11 +33,13 @@ namespace MortgageCalculator.WebApi.UnitTests
             _mapper = new Mock<IMapper>();
             _mortgageCalculateProvider = new Mock<IMortgageCalculateProvider>();
             _interestRateProvider = new Mock<IInterestRateProvider>();
+            _requestValidator = new Mock<IRequestValidator>();
             _controller = new MortgageCalculatorController(
                 _logger.Object,
                 _mapper.Object,
                 _mortgageCalculateProvider.Object,
-                _interestRateProvider.Object);
+                _interestRateProvider.Object,
+                _requestValidator.Object);
 
             var mortgageRate = new List<MortgageRate>
             {
@@ -52,8 +57,9 @@ namespace MortgageCalculator.WebApi.UnitTests
         }
 
         [Fact]
-        public void PostMethod_ShouldCalculateMortgage()
+        public void PostMethod_ShouldCalculateMortgageWithValidInput()
         {
+            _requestValidator.Setup(x => x.ValidateMortgageCalculateRequest(It.IsAny<MortgageInput>())).Returns(true);
             var result = _controller.CalculateMortgageEligibility(new MortgageCalculateRequest
             {
                 IncomeAmount = 45000,
@@ -63,6 +69,21 @@ namespace MortgageCalculator.WebApi.UnitTests
             });
             Assert.NotNull(result);
             _mortgageCalculateProvider.Verify(x=> x.GetMortgageResult(It.IsAny<MortgageInput>()), Times.AtLeastOnce);
+        }
+
+        [Fact]
+        public void PostMethod_ShouldCalculateMortgageWithInValidInput()
+        {
+            _requestValidator.Setup(x => x.ValidateMortgageCalculateRequest(It.IsAny<MortgageInput>())).Returns(false);
+            var result = _controller.CalculateMortgageEligibility(new MortgageCalculateRequest
+            {
+                IncomeAmount = 45000,
+                MaturityPeriod = 14,
+                LoanValueAmount = 300000,
+                HomeValueAmount = 250000
+            });
+            Assert.NotNull(result);
+            _requestValidator.Verify(x => x.ValidateMortgageCalculateRequest(It.IsAny<MortgageInput>()), Times.AtLeastOnce);
         }
     }
 }

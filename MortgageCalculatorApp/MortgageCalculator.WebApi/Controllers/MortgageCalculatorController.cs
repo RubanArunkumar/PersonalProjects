@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System.Net;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MortgageCalculator.Core.Models;
 using MortgageCalculator.Core.Providers;
-using MortgageCalculator.Data.Models;
+using MortgageCalculator.Core.Validator;
 using MortgageCalculator.WebApi.Models;
 
 namespace MortgageCalculator.WebApi.Controllers
@@ -18,17 +18,20 @@ namespace MortgageCalculator.WebApi.Controllers
 
         private readonly IMortgageCalculateProvider _mortgageCalculateProvider;
         private readonly IInterestRateProvider _interestRateProvider;
+        private readonly IRequestValidator _requestValidator;
 
         public MortgageCalculatorController(
             ILogger<MortgageCalculatorController> logger,
             IMapper mapper,
             IMortgageCalculateProvider mortgageCalculateProvider,
-            IInterestRateProvider interestRateProvider)
+            IInterestRateProvider interestRateProvider,
+            IRequestValidator requestValidator)
         {
             _logger = logger;
             _mapper = mapper;
             _mortgageCalculateProvider = mortgageCalculateProvider;
             _interestRateProvider = interestRateProvider;
+            _requestValidator = requestValidator;
         }
 
         [Route("/api/interest-rates")]
@@ -46,10 +49,14 @@ namespace MortgageCalculator.WebApi.Controllers
         public IActionResult CalculateMortgageEligibility([FromBody] MortgageCalculateRequest mortgageCalculateRequest)
         {
             _logger.LogInformation("The method to get calculate mortgage is called");
+            var validatedResult = _requestValidator.ValidateMortgageCalculateRequest(_mapper.Map<MortgageInput>(mortgageCalculateRequest));
+            if (!validatedResult)
+            {
+                return new BadRequestObjectResult("Invalid User Input");
+            }
             var result =
                 _mortgageCalculateProvider.GetMortgageResult(_mapper.Map<MortgageInput>(mortgageCalculateRequest));
             return new JsonResult(_mapper.Map<MortgageCalculateResponse>(result));
-
         }
     }
 }

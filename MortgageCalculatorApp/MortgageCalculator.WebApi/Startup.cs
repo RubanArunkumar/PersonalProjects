@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MortgageCalculator.Core.Providers;
+using MortgageCalculator.Core.Validator;
 using MortgageCalculator.Data;
 using MortgageCalculator.Data.Repository;
 using MortgageCalculator.WebApi.Mapper;
@@ -33,6 +34,7 @@ namespace MortgageCalculator.WebApi
             services.AddTransient<IInterestRateProvider, InterestRateProvider>();
             services.AddTransient<IMortgageCalculateProvider, MortgageCalculateProvider>();
             services.AddTransient<IEligibilityCheckProvider, EligibilityCheckProvider>();
+            services.AddTransient<IRequestValidator, RequestValidator>();
 
             services.AddSwaggerGen(c =>
             {
