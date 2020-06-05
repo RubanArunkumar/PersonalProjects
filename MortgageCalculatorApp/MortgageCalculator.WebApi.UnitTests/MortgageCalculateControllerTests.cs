@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.Extensions.Logging;
 using Moq;
 using MortgageCalculator.Core.Models;
 using MortgageCalculator.Core.Providers;
 using MortgageCalculator.Core.Validator;
-using MortgageCalculator.Data.Models;
 using MortgageCalculator.WebApi.Controllers;
 using MortgageCalculator.WebApi.Models;
 using Xunit;

@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using AutoMapper;
+﻿using AutoMapper;
 using MortgageCalculator.Core.Models;
-using MortgageCalculator.Data.Models;
 using MortgageCalculator.WebApi.Models;
 
 namespace MortgageCalculator.WebApi.Mapper
