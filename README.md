@@ -80,6 +80,6 @@ Sample Respone:
 }
 `
 
-**Code Smells : null**
+**Code Smell : null**
 
 **Code Coverage > 90 %**
