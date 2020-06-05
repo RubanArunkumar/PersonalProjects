@@ -79,3 +79,4 @@ Sample Respone:
   "mortgageEligibility": false
 }
 `
+** Code Coverage > 90 %**
