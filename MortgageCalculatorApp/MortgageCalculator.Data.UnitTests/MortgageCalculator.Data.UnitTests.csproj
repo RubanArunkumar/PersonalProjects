@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MortgageCalculator.WebApi.Data\MortgageCalculator.Data.csproj" />
+    <ProjectReference Include="..\MortgageCalculator.Data\MortgageCalculator.Data.csproj" />
   </ItemGroup>
 
 </Project>

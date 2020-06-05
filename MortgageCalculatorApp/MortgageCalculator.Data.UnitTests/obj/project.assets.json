@@ -4161,8 +4161,8 @@
     },
     "MortgageCalculator.Data/1.0.0": {
       "type": "project",
-      "path": "../MortgageCalculator.WebApi.Data/MortgageCalculator.Data.csproj",
-      "msbuildProject": "../MortgageCalculator.WebApi.Data/MortgageCalculator.Data.csproj"
+      "path": "../MortgageCalculator.Data/MortgageCalculator.Data.csproj",
+      "msbuildProject": "../MortgageCalculator.Data/MortgageCalculator.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4205,8 +4205,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj": {
-              "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj"
+            "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\MortgageCalculator.Data.csproj": {
+              "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\MortgageCalculator.Data.csproj"
             }
           }
         }

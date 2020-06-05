@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj": {
-                "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj"
+              "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\MortgageCalculator.Data.csproj": {
+                "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\MortgageCalculator.Data.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj": {
+    "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\MortgageCalculator.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\MortgageCalculator.Data.csproj",
         "projectName": "MortgageCalculator.Data",
-        "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\MortgageCalculator.Data.csproj",
+        "projectPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\MortgageCalculator.Data.csproj",
         "packagesPath": "C:\\Users\\ARuban\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.WebApi.Data\\obj\\",
+        "outputPath": "C:\\Projects\\PersonalProjects\\MortgageCalculatorApp\\MortgageCalculator.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
