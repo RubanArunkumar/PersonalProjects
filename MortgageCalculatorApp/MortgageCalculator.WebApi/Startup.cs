@@ -46,6 +46,7 @@ namespace MortgageCalculator.WebApi
             var mapperConfiguration = new MapperConfiguration(configurationExpression);
             mapperConfiguration.AssertConfigurationIsValid();
             services.AddSingleton<IMapper>(new AutoMapper.Mapper(mapperConfiguration));
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,6 +69,9 @@ namespace MortgageCalculator.WebApi
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(options =>
+                        options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseEndpoints(endpoints =>
             {
